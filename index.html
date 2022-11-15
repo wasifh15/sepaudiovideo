@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <script  src="script.js"></script>
+    </head>
+    <body>
+        <div class="video-wrapper">
+            <iframe id="video-player"
+                src="https://player.adventr.io/unstable/index.html?disableTracking=1&link=https%3A%2F%2Fd1zvtp9g717wqj.cloudfront.net%2Fclients%2F11%2F1797%2Fpublished%2F11-ad-2210-17466959.data"
+                frameborder="0" scrolling="no" allowfullscreen
+                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone">
+            </iframe>
+            <div class="click-shield" onclick="startPalyback(this)"></div>
+            <audio id="audio-player" src="assets/background-music.mp3" loop preload="auto"></audio>
+        </div>
+    </body>
+</html>
