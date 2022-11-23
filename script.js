@@ -30,7 +30,7 @@ function onPlayerMessage(event) {
                 // Get current clip label
                 var currentClipLabel = message.value.label;
                 // If this is one of the "last" clips
-                if (currentClipLabel === itm-feheren-16sec-13-06q1-1 || currentClipLabel === itm-feketen-16sec-13-ax9w-1) {
+                if (currentClipLabel === itm-feheren-16sec-13-06q1 || currentClipLabel === itm-feketen-16sec-13-ax9w) {
                     // Get Audio element for background music
                     var musicPlayer = document.getElementById('music-player');
                     // Pause background music
